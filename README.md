@@ -32,8 +32,10 @@ Install dependencies
 ```
 
 ```bash
-  cd frontend/
-  npm install
+  create .env file which caintains
+MONGO_URL= ...
+JWT_SECRET= ...
+CLIENT_URL= ...
 ```
 
 Start the server
