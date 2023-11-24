@@ -32,21 +32,37 @@ Install dependencies
 ```
 
 ```bash
-  create .env file which caintains
+npm add dotenv
+create .env file which caintains
 MONGO_URL= ...
 JWT_SECRET= ...
 CLIENT_URL= ...
 ```
 
+Go to the project directory
+
+```bash
+  cd client
+```
+
+Install dependencies
+
+```bash
+  npm install
+  npm add tailwindcss postcss autoprefixer
+  npm tailwindcss init -p
+```
+
 Start the server
 
 ```bash
-  npm run start
+  cd api
+  npm install nodemon
+  nodemon index.js
 ```
 Start the Client
 
 ```bash
-  //open now terminal
-  cd frontend
-  npm start
+  cd client
+  npm run dev
 ```
